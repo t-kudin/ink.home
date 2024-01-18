@@ -1,0 +1,26 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./adaptive.scss";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $off-white;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
